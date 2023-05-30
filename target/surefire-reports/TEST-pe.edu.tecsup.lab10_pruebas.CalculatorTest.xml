@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pe.edu.tecsup.lab10_pruebas.CalculatorTest" time="0.377" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pe.edu.tecsup.lab10_pruebas.CalculatorTest" time="0.37" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PE"/>
     <property name="sun.boot.library.path" value="C:\Programas\bin\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Alumno\AppData\Local\Temp\surefire6390908562180867962\surefirebooter8302386057684815300.jar C:\Users\Alumno\AppData\Local\Temp\surefire6390908562180867962 2023-05-30T17-00-58_428-jvmRun1 surefire14867449340505349620tmp surefire_06136600428484531834tmp"/>
+    <property name="sun.java.command" value="C:\Users\Alumno\AppData\Local\Temp\surefire13963799882752567939\surefirebooter9217228658126817472.jar C:\Users\Alumno\AppData\Local\Temp\surefire13963799882752567939 2023-05-30T17-21-14_924-jvmRun1 surefire5534642552850040445tmp surefire_017750119813446160951tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Alumno\eclipse-workspace\lab10-pruebas\target\test-classes;C:\Users\Alumno\eclipse-workspace\lab10-pruebas\target\classes;C:\Users\Alumno\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0\junit-jupiter-engine-5.8.0.jar;C:\Users\Alumno\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0\junit-platform-engine-1.8.0.jar;C:\Users\Alumno\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Alumno\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0\junit-platform-commons-1.8.0.jar;C:\Users\Alumno\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0\junit-jupiter-api-5.8.0.jar;C:\Users\Alumno\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Alumno\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Alumno\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Alumno\AppData\Local\Temp\surefire6390908562180867962\surefirebooter8302386057684815300.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Alumno\AppData\Local\Temp\surefire13963799882752567939\surefirebooter9217228658126817472.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+8"/>
@@ -58,6 +58,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAdd" classname="pe.edu.tecsup.lab10_pruebas.CalculatorTest" time="0.014"/>
-  <testcase name="testSub" classname="pe.edu.tecsup.lab10_pruebas.CalculatorTest" time="0.001"/>
+  <testcase name="testAdd" classname="pe.edu.tecsup.lab10_pruebas.CalculatorTest" time="0.015"/>
+  <testcase name="testSub" classname="pe.edu.tecsup.lab10_pruebas.CalculatorTest" time="0"/>
 </testsuite>

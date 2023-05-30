@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.core.config.Configurator;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -38,5 +40,13 @@ public class CalculatorTest {
 		int EXPECTED_VALUE=1;
 		assertEquals(EXPECTED_VALUE, app.sub(4, 3));
 	}
+	@AfterEach
+	void tearDown() {
+		log.info("tearDown()....!");
+	}
 	
+	@AfterAll
+	static void tearDownAll() {
+		log.info("tearDownAll()....!");
+	}
 }
